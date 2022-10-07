@@ -6,5 +6,6 @@
 */
 
 // Task 1: Add code here
-
+import { printSomething } from "external.js";
+const print = () => printSomething;
 print();
